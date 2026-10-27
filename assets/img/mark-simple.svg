@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="yi-nology">
+  <defs>
+    <linearGradient id="smRing" x1="15%" y1="5%" x2="88%" y2="98%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="52%" stop-color="#2BB6E8"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+  <path fill="url(#smRing)" fill-rule="evenodd" d="
+    M 287.2 138.0 A 36 36 0 0 1 224.8 138.0 L 167.7 171.0 A 36 36 0 0 1 136.5 225.0
+    L 136.5 291.0 A 36 36 0 0 1 167.7 345.0 L 224.8 378.0 A 36 36 0 0 1 287.2 378.0
+    L 344.3 345.0 A 36 36 0 0 1 375.5 291.0 L 375.5 225.0 A 36 36 0 0 1 344.3 171.0 Z
+    M 268.1 211.0 A 14 14 0 0 1 243.9 211.0 L 221.4 224.0 A 14 14 0 0 1 209.2 245.0
+    L 209.2 271.0 A 14 14 0 0 1 221.4 292.0 L 243.9 305.0 A 14 14 0 0 1 268.1 305.0
+    L 290.6 292.0 A 14 14 0 0 1 302.8 271.0 L 302.8 245.0 A 14 14 0 0 1 290.6 224.0 Z"/>
+</svg>
