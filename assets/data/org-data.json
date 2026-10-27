@@ -6,13 +6,13 @@
     "blog": "https://murphyyi.com",
     "location": "Beijing",
     "avatarUrl": "https://avatars.githubusercontent.com/u/63343176?v=4",
-    "publicRepos": 50,
+    "publicRepos": 51,
     "followers": 3,
     "createdAt": "2020-04-08T09:13:20Z",
     "htmlUrl": "https://github.com/yi-nology"
   },
   "stats": {
-    "publicRepos": 50,
+    "publicRepos": 51,
     "totalStars": 17,
     "totalForks": 15,
     "languages": 9,
@@ -33,7 +33,7 @@
     },
     {
       "name": "HTML",
-      "count": 2
+      "count": 3
     },
     {
       "name": "Shell",
@@ -687,7 +687,7 @@
       "fork": false,
       "license": "",
       "createdAt": "2026-07-21T15:40:44Z",
-      "pushedAt": "2026-07-22T06:19:44Z"
+      "pushedAt": "2026-10-27T16:19:30Z"
     },
     {
       "name": "k7s",
@@ -1003,6 +1003,23 @@
       "license": "Apache-2.0",
       "createdAt": "2026-10-20T18:02:30Z",
       "pushedAt": "2026-10-21T16:55:13Z"
+    },
+    {
+      "name": "yi-nology.github.io",
+      "fullName": "yi-nology/yi-nology.github.io",
+      "url": "https://github.com/yi-nology/yi-nology.github.io",
+      "description": "yi-nology 组织官网 · 把复杂运维变简单",
+      "language": "HTML",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "issues": 0,
+      "homepage": "https://yi-nology.github.io",
+      "archived": false,
+      "fork": false,
+      "license": "MIT",
+      "createdAt": "2026-10-27T16:30:26Z",
+      "pushedAt": "2026-10-27T16:30:59Z"
     }
   ]
 }
