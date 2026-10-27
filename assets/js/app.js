@@ -17,12 +17,12 @@
   // 分类规则按顺序匹配，命中即止；兜底为 other
   const CATEGORIES = [
     { id: 'k8s',      label: 'Kubernetes 云原生', color: '#326CE5', test: n => /^k7s/.test(n) || n === 'iam-deploy' },
-    { id: 'git',      label: 'Git 基础设施',     color: '#F05032', test: n => /git|ferry/.test(n) },
-    { id: 'agent',    label: 'Agent 与 AI',      color: '#A78BFA', test: n => /^(agent|bisque|pulse|code-review)/.test(n) },
+    { id: 'git',      label: 'Git 基础设施',     color: '#F05032', test: n => /^(git-|go-git)|gitcode|ferry/.test(n) },
+    { id: 'agent',    label: 'Agent 与 AI',      color: '#A78BFA', test: n => /^(agent|bianque|pulse|code-review)/.test(n) },
     { id: 'pm',       label: '项目管理与发布',    color: '#F59E0B', test: n => /^zentao/.test(n) },
     { id: 'platform', label: '配置与资源平台',    color: '#06B6D4', test: n => n === 'rainbow_bridge' },
-    { id: 'app',      label: '应用与站点',       color: '#34D399', test: n => /sidecar|^cv$|murphyyi|ework|go-book|resume|mdresume|film|WechatShare|yi-nology\.github\.io/.test(n) },
-    { id: 'lib',      label: '脚手架与库',       color: '#00ADD8', test: n => /common|^sdk$|scaffold|template|promql|home-system|sso|wifi-qr|jsproxy|form-generator|tldr|NotionNext|uptime|^shell$/.test(n) },
+    { id: 'app',      label: '应用与站点',       color: '#34D399', test: n => /sidecar|^cv$|murphyyi|ework|go-book|resume|mdresume|film|WechatShare|yi-nology\.github\.io|^\.github$/.test(n) },
+    { id: 'lib',      label: '脚手架与库',       color: '#00ADD8', test: n => /common|^sdk$|scaffold|template|[Pp]romQL|home-system|sso|wifi-qr|jsproxy|form-generator|tldr|NotionNext|uptime|^shell$/.test(n) },
     { id: 'arch',     label: '已归档',           color: '#64748B', test: () => false },
     { id: 'other',    label: '其他',             color: '#64748B', test: () => false },
   ];
